@@ -31,7 +31,8 @@ int main() {
     scanf("%f", &pib_1);
     printf("Digite a quantidade de pontos turísticos :\n");
     scanf("%d", &pontosturisticos_1);
-printf("\n");    
+    
+    printf("\n");    
 //Abaixo iniciaremos a coleta de dados para a carta 2.
     
     printf("--- CADASTRO DA SEGUNDA CARTA ---\n\n");
@@ -47,9 +48,10 @@ printf("\n");
     scanf("%f", &area_2);  
     printf("Digite o PIB :\n");
     scanf("%f", &pib_2);
-    printf("Digite a quantidade de pontos turísticos :\n\n");
+    printf("Digite a quantidade de pontos turísticos :\n");
     scanf("%d", &pontosturisticos_2);
 
+    printf("\n");
 /*
 Calculos para saber a Densidade Populacional, Pib Per Capita e Super poder (somando todos os atributos numéricos população, área, PIB, 
 número de pontos turísticos, PIB per capita e o inverso da densidade
@@ -65,9 +67,9 @@ superpoder_2 = (float) populacao_2 + area_2 + pib_2 + pontosturisticos_2 + pibpe
 
 // Comparação das Cartas 
     if (populacao_1 > populacao_2){
-        printf("Carta 1 tem maior população.\n");
+        printf("Carta 1 venceu por ter maior população:(%lu) da cidade de:(%s)\n", populacao_1, cidade_1));
     } else {
-        printf("Carta 2 tem maior população.\n");
+        printf("Carta 2 venceu por ter maior população:(%lu) da cidade de:(%s)\n", populacao_2, cidade_2);
     }
 
     if (area_1 > area_2){
@@ -106,8 +108,8 @@ superpoder_2 = (float) populacao_2 + area_2 + pib_2 + pontosturisticos_2 + pibpe
         printf("Carta 2 tem mais Super poder.\n");
     }
 
+// Resultado Da carta vencendora
 
-    
     return 0;
 }
 

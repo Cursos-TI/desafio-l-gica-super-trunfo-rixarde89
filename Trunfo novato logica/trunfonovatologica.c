@@ -110,6 +110,8 @@ superpoder_2 = (float) populacao_2 + area_2 + pib_2 + pontosturisticos_2 + pibpe
 
 // Resultado Da carta vencendora
 
+    printf("");
+
     return 0;
 }
 

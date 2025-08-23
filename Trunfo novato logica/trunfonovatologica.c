@@ -17,37 +17,37 @@ int main() {
     printf("*** DESAFIO SUPER TRUNFO DE PAÍSES! ***\n\n");
    
     printf("--- CADASTRO DA PRIMEIRA CARTA ---\n\n");
-    printf("Digite a letra do estado (apenas uma letra de A até H) :");
+    printf("Digite a letra do estado (apenas uma letra de A até H) :\n");
     scanf(" %c", &estado_1);
-    printf("Digite a letra do estado com o número entre 01 a 04 para gerar o código (Ex:'A01') :");
+    printf("Digite a letra do estado com o número entre 01 a 04 para gerar o código (Ex:'A01') :\n");
     scanf("%s", cod_carta_1);
-    printf("Digite o nome da cidade :");
+    printf("Digite o nome da cidade :\n");
     scanf("%s", cidade_1);
-    printf("Digite o número de habitantes :");
+    printf("Digite o número de habitantes :\n");
     scanf("%lu", &populacao_1);
-    printf("Digite a área territorial em quilometros quadrados :");
+    printf("Digite a área territorial em quilometros quadrados :\n");
     scanf("%f", &area_1);
-    printf("Digite o PIB :");
+    printf("Digite o PIB :\n");
     scanf("%f", &pib_1);
-    printf("Digite a quantidade de pontos turísticos :");
+    printf("Digite a quantidade de pontos turísticos :\n");
     scanf("%d", &pontosturisticos_1);
-    
+printf("\n");    
 //Abaixo iniciaremos a coleta de dados para a carta 2.
     
     printf("--- CADASTRO DA SEGUNDA CARTA ---\n\n");
-    printf("Digite a letra do estado (apenas uma letra de A até H) :");
+    printf("Digite a letra do estado (apenas uma letra de A até H) :\n");
     scanf(" %c", &estado_2);
-    printf("Digite a letra do estado com o número entre 01 a 04 para gerar o código (Ex:'A01') :");
+    printf("Digite a letra do estado com o número entre 01 a 04 para gerar o código (Ex:'A01') :\n");
     scanf("%s", cod_carta_2);
-    printf("Digite o nome da cidade :");
+    printf("Digite o nome da cidade :\n");
     scanf("%s", cidade_2);
-    printf("Digite o número de habitantes :");
+    printf("Digite o número de habitantes :\n");
     scanf("%lu", &populacao_2);
-    printf("Digite a área territorial em quilometros quadrados :");
+    printf("Digite a área territorial em quilometros quadrados :\n");
     scanf("%f", &area_2);  
-    printf("Digite o PIB :");
+    printf("Digite o PIB :\n");
     scanf("%f", &pib_2);
-    printf("Digite a quantidade de pontos turísticos :");
+    printf("Digite a quantidade de pontos turísticos :\n\n");
     scanf("%d", &pontosturisticos_2);
 
 /*
@@ -105,6 +105,9 @@ superpoder_2 = (float) populacao_2 + area_2 + pib_2 + pontosturisticos_2 + pibpe
     } else {
         printf("Carta 2 tem mais Super poder.\n");
     }
+
+
+    
     return 0;
 }
 

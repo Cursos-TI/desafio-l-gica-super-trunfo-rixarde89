@@ -87,19 +87,44 @@ populacional.*/
     } else {
         printf("VENCEDOR: A carta 2 %s venceu!\n", cidade_2); 
     }
+
         if (area_1 > area_2){
         printf("VENCEDOR: A carta 1 %s venceu!\n", cidade_1);
     } else {
         printf("VENCEDOR: A carta 2 %s venceu!\n", cidade_2);
     }
-    if (superpoder_1 >  superpoder_2){
+
+        if (pib_1 > pib_2){
         printf("VENCEDOR: A carta 1 %s venceu!\n", cidade_1);
     } else {
         printf("VENCEDOR: A carta 2 %s venceu!\n", cidade_2);
     }
 
-    
-    
+        if (pontosturisticos_1 > pontosturisticos_2){
+        printf("VENCEDOR: A carta 1 %s venceu!\n", cidade_1);
+    } else {
+        printf("VENCEDOR: A carta 2 %s venceu!\n", cidade_2);
+    }
+
+        if (densidadepopulacional_1 < densidadepopulacional_2){
+        printf("VENCEDOR: A carta 1 %s venceu!\n", cidade_1);
+    } else {
+        printf("VENCEDOR: A carta 2 %s venceu!\n", cidade_2);
+    }
+
+        if (pibpercapita_1 > pibpercapita_2){
+        printf("VENCEDOR: A carta 1 %s venceu!\n", cidade_1);
+    } else {
+        printf("VENCEDOR: A carta 2 %s venceu!\n", cidade_2);
+    }
+
+    if (superpoder_1 > superpoder_2){
+        printf("VENCEDOR: A carta 1 %s venceu!\n", cidade_1);
+    } else {
+        printf("VENCEDOR: A carta 2 %s venceu!\n", cidade_2);
+    }
+ 
+
     return 0;
 }
 

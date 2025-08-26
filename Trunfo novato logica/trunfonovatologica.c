@@ -124,7 +124,6 @@ populacional.*/
         printf("VENCEDOR: A carta 2 %s venceu!\n", cidade_2);
     }
  
-
     return 0;
 }
 

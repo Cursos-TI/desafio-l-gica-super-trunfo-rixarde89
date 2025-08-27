@@ -1,5 +1,7 @@
 #include <stdio.h>
-//Tema 2 Super Trunfo de Países!
+#include <stdlib.h>
+#include <time.h>
+//Tema 3 Super Trunfo de Países!
 
 int main() {
 //Abaixo serão declaradas as variaveis para as duas cartas.
@@ -11,9 +13,16 @@ int main() {
     float area_1, area_2, pib_1, pib_2;
     float densidadepopulacional_1, densidadepopulacional_2, pibpercapita_1, pibpercapita_2;
     float superpoder_1, superpoder_2;
+    int escolhajogador, escolhacomputador;
+
+    srand(time(0));
+
+    printf("*** JOGO SUPER TRUNFO DE PAÍSES! SEJA BEM VINDO!***\n\n");
+    printf("--- Menu do Jogo ---\n");
+    printf("-- Escolha algum dos atributos para competir --.");
+    
    
 //Abaixo iniciaremos a coleta de dados para a carta 1.
-    printf("*** DESAFIO SUPER TRUNFO DE PAÍSES! ***\n\n");
     printf("--- CADASTRO DA PRIMEIRA CARTA ---\n\n");
     printf("Digite a letra do estado (apenas uma letra de A até H) :\n");
     scanf(" %c", &estado_1);

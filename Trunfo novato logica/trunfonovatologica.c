@@ -6,7 +6,7 @@
 int main() {
 // Abaixo serão declaradas as variaveis para as duas cartas.
 // Carta 1
-    char estado_1 = "S", cidade_1[50] = "ARACAJU";
+    char estado_1 = 'S', cidade_1[50] = "ARACAJU";
     char cod_carta_1[50] = "S01";
     unsigned long int populacao_1 = 628849;
     int pontosturisticos_1 = 15;
@@ -15,7 +15,7 @@ int main() {
     float pibpercapita_1;
     float superpoder_1;
 // Carta 2
-    char estado_2 = "A", cidade_2[50] = "MACEIÓ";
+    char estado_2 = 'A', cidade_2[50] = "MACEIÓ";
     char cod_carta_2[50] = "A02";
     unsigned long int populacao_2 = 957916 ;
     int pontosturisticos_2 = 15 ;
@@ -121,9 +121,9 @@ populacional.*/
     if (pontosturisticos_1 > pontosturisticos_2){
         printf("VENCEDOR: Carta 1 %s Venceu!\n", cidade_1);
     } else if (pontosturisticos_2 > pontosturisticos_1){
-        printf("VENCEDOR: Carta 2 %s Vendeu!\n", cidade_2);
+        printf("VENCEDOR: Carta 2 %s Venceu!\n", cidade_2);
     } else{
-        printf("RESULTADO: Empate!");
+        printf("RESULTADO: Empate!\n");
     }
         break;
     case 6:
@@ -133,9 +133,9 @@ populacional.*/
     if (densidadepopulacional_1 < densidadepopulacional_2){
         printf("VENCEDOR: Carta 1 %s Venceu!\n", cidade_1);
     } else if (densidadepopulacional_2 < densidadepopulacional_1){
-        printf("VENCEDOR: Carta 2 %s Vendeu!\n", cidade_2);
+        printf("VENCEDOR: Carta 2 %s Venceu!\n", cidade_2);
     } else{
-        printf("RESULTADO: Empate!");
+        printf("RESULTADO: Empate!\n");
     }
         break;
     case 7:
@@ -148,4 +148,3 @@ populacional.*/
 
     return 0;
 }
-

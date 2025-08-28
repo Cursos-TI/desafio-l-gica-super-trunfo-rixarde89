@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 // Tema 3 Este código implementa um menu interativo para a comparação de cartas.
 
 int main() {
@@ -25,7 +24,7 @@ int main() {
     float superpoder_2;
 
     int opcao;
-// Calculos para saber a Densidade Populacional e Pib Per Capita das cartas 1 e 2.
+// Calculos para saber a Densidade Populacional carta 1 e 2.
     densidadepopulacional_1 = (float)populacao_1 / area_1; 
     densidadepopulacional_2 = (float)populacao_2 / area_2;
 
@@ -39,23 +38,21 @@ populacional.*/
 // Exibe as cartas para o jogadores
     printf("*** JOGO SUPER TRUNFO! SEJA BEM-VINDO(a)! ***\n\n");
     printf("--- PRIMEIRA CARTA ---\n\n");
-    printf("Carta 1: %s\n", cidade_1);
+    printf("Cidade: %s\n", cidade_1);
     printf("População: %lu\n", populacao_1);
     printf("Área: %.2f Km²\n", area_1);
     printf("PIB : %.2f Bilhões de reais\n", pib_1);
     printf("Pontos turísticos: %d\n", pontosturisticos_1);
-    printf("Densidade Populacional: %.2f\n", densidadepopulacional_1);
-    printf("---------------------------------------------------\n");
-        
+    printf("Densidade Populacional: %.2f\n\n", densidadepopulacional_1);
+
     printf("--- SEGUNDA CARTA ---\n\n");
-    printf("Carta 2: %s\n", cidade_2);
+    printf("Cidade: %s\n", cidade_2);
     printf("População: %lu\n", populacao_2);
     printf("Área: %.2f Km²\n", area_2);
     printf("PIB : %.2f Bilhões de reais\n", pib_2);
     printf("Pontos turísticos: %d\n", pontosturisticos_2);
     printf("Densidade Populacional: %.2f\n", densidadepopulacional_2);
     printf("---------------------------------------------------\n");
-
 // Menu para o jogador escolher o atributo
     printf("-- Menu do Inicial --\n");
     printf("-- Escolha umas das opções abaixo: --\n");
@@ -68,7 +65,7 @@ populacional.*/
     printf("7. Sair do jogo\n");
     printf("Escolha: ");
     scanf("%d", &opcao);
-    printf("\n");
+    printf("-----------------------------------------------------\n");
 
 // Estrutura do menu em switch para escolher QUAL COMPARAÇÃO FAZER.
     switch (opcao){
